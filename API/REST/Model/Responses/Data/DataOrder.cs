@@ -85,12 +85,6 @@ namespace API.REST.Model.Responses.Data
         public string API_GUID { get; set; }
 
         /// <summary>
-        /// Flag: 1 = Order placed via Bitsgap
-        /// </summary>
-        [JsonProperty("our", NullValueHandling = NullValueHandling.Ignore)]
-        public int? OurOrder { get; set; }
-
-        /// <summary>
         /// Error message
         /// </summary>
         [JsonIgnore]
