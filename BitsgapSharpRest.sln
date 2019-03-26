@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForm", "TestForm\TestForm.csproj", "{73B786D9-83DF-41DF-9C2F-CFBCC0443287}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "API", "API\API.shproj", "{098D7653-9F15-471E-B346-519CB7F30CA4}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		API\API.projitems*{098d7653-9f15-471e-b346-519cb7f30ca4}*SharedItemsImports = 13
+		API\API.projitems*{73b786d9-83df-41df-9c2f-cfbcc0443287}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73B786D9-83DF-41DF-9C2F-CFBCC0443287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B786D9-83DF-41DF-9C2F-CFBCC0443287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B786D9-83DF-41DF-9C2F-CFBCC0443287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B786D9-83DF-41DF-9C2F-CFBCC0443287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA520338-B768-49A6-8683-B9AAFE3FA020}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>098d7653-9f15-471e-b346-519cb7f30ca4</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>API</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\MarketType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\OrderSide.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\OrderState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\OrderType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\SysType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Order.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Enums\MethodType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Request.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Response.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataAPIKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataBalances.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataDeal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataLastPrice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataOHLC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataOrderbook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataOrder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\Data\DataRecentTrade.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseAPIKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseBalance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseBalances.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseDeals.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseLastPrice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseMarketsPairs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseMessages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseOHLC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseOrderbook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseOrderResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseOrders.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Model\Responses\ResponseRecentTrades.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)REST\Rest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\EnumValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\SHA512HMAC.cs" />
+  </ItemGroup>
+</Project>
