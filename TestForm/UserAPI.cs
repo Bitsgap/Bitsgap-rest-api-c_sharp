@@ -107,11 +107,11 @@ namespace TestForm
             var market = GetMarket(true);
             if (market == MarketType.Empty) return;
 
-            lbMarketSelect.Text = "market: " + lbMarkets.SelectedItem.ToString();
+            lbMarketSelect.Text = "market: " + EnumValue.GetValue(market);
 
             if (rbReal.Checked)
             {
-                tbKeyStatus.Text = keys[market].Status + "\n" + keys[market].Message;
+                tbKeyStatus.Text = keys[market].Status + "\n  " + keys[market].Message;
             }
 
             UpdateBalances();
